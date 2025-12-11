@@ -1,34 +1,6 @@
   	PIPELIN-DESIGN
 
-1. Pipeline Flow Structure (Visual Overview)
-
-	GREENWATCH DATA FLOW PIPELINE
-   ─────────────────────────────────────────────
-KoBoToolbox Form (Inventory / Monitoring)
-        │
-        ▼
-KoBoToolbox Cloud (server storage)
-        │
-        ▼
-REST Service (KoBo → Endpoint connection)
-        │  (JSON data automatically sent)
-        ▼
-Python Endpoint (hosted free on Render)
-        │  (Receives data and saves to SQL)
-        ▼
-MySQL Database (WorkBench / Online)
-        │  (Data stored & ready for use)
-        ▼
-Power BI Dashboard (auto-refresh)
-        │  (Visuals for Central GreenWatch HQ)
-        ▼
-Future Expansion
-       • NGO Servers (decentralized)
-       • State Forestry Databases
-       • Synchronization to Central GreenWatch DB
-
-
-2. Pipeline Description (Text Explanation)
+ Pipeline Description (Text Explanation)
 
 I. KoboCollect App (Field Submission)
 

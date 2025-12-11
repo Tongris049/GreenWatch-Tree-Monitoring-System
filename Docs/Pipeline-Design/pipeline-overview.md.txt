@@ -1,0 +1,9 @@
+
+  %% GREENWATCH DATA FLOW PIPELINE – SYSTEM OVERVIEW
+flowchart TD
+    A[KoBo Collect App<br>(Form Submission)] --> B[KoBoToolbox Cloud]
+    B --> C[REST Service<br>(Auto JSON Push)]
+    C --> D[Python Endpoint<br>(Hosted on Render)]
+    D --> E[MySQL Database<br>(Inventory & Monitoring Tables)]
+    E --> F[Power BI Dashboard<br>(Direct or Scheduled Refresh)]
+    F --> G[Future Expansion<br>• NGO Servers<br>• State Forestry DB<br>• Sync to Central GreenWatch DB]
