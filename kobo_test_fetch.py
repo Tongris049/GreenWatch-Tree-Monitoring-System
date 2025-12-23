@@ -1,10 +1,10 @@
 import urllib.request
 import json
 
-# 🔐 Your KoBo API Token
+# 🔐 My KoBo API Token
 API_TOKEN = "7cfed601a647c0b72f46045922c1f71a1430d7d2"
 
-# 🆔 Your Form (Asset) ID
+# 🆔 My Form (Asset) ID
 FORM_ID = "a2eKp7YQ4GXDF88d8fekhh"
 
 # 🌍 KoBo API URL
