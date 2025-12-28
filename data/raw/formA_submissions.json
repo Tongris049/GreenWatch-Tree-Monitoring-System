@@ -1,0 +1,56 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "_id": 636961153,
+      "formhub/uuid": "ad5e922a748b4d9489ef37b1f645a05a",
+      "start": "2025-12-20T12:25:03.176+01:00",
+      "end": "2025-12-23T23:18:29.363+01:00",
+      "Tree_ID": "GW-AG1-Value Re-oreintation Movement-JosNorth-0001",
+      "Planting_Entity_Type": "ngo",
+      "If_NGO_select_the_NGOs_name": "others",
+      "Please_specify_the_NGO_name": "Value Re-orientation Movement",
+      "Local_Government_Area_LGA": "jos_south",
+      "Community_Village": "Taminus",
+      "Date_of_Planting_Recording": "2025-12-20",
+      "Tree_Species": "others",
+      "Please_specify_the_Tree_species": "Masqurate",
+      "Tree_Image": "1766230258277.jpg",
+      "GPS_Coordinates": "9.9136435 8.8894636 1239.5 0.723",
+      "Planted_by": "Value Re-orientation Movement Agent",
+      "Tree_Condition_at_time_of_capture": "healthy",
+      "Comment_Additional_Notes": "Good",
+      "__version__": "vF68vbuVgMfNdiZ4H2qwYe",
+      "meta/instanceID": "uuid:9a815da1-0479-4468-855c-e50056762fb0",
+      "_xform_id_string": "a2eKp7YQ4GXDF88d8fekhh",
+      "_uuid": "9a815da1-0479-4468-855c-e50056762fb0",
+      "meta/rootUuid": "uuid:9a815da1-0479-4468-855c-e50056762fb0",
+      "_attachments": [
+        {
+          "download_url": "https://kf.kobotoolbox.org/api/v2/assets/a2eKp7YQ4GXDF88d8fekhh/data/636961153/attachments/att8XQUUCY2WN6S2KnXNL7rw/",
+          "mimetype": "image/jpeg",
+          "filename": "tongris049/attachments/ad5e922a748b4d9489ef37b1f645a05a/9a815da1-0479-4468-855c-e50056762fb0/1766230258277.jpg",
+          "media_file_basename": "1766230258277.jpg",
+          "uid": "att8XQUUCY2WN6S2KnXNL7rw",
+          "is_deleted": false,
+          "download_large_url": "https://kf.kobotoolbox.org/api/v2/assets/a2eKp7YQ4GXDF88d8fekhh/data/636961153/attachments/att8XQUUCY2WN6S2KnXNL7rw/large/",
+          "download_medium_url": "https://kf.kobotoolbox.org/api/v2/assets/a2eKp7YQ4GXDF88d8fekhh/data/636961153/attachments/att8XQUUCY2WN6S2KnXNL7rw/medium/",
+          "download_small_url": "https://kf.kobotoolbox.org/api/v2/assets/a2eKp7YQ4GXDF88d8fekhh/data/636961153/attachments/att8XQUUCY2WN6S2KnXNL7rw/small/",
+          "question_xpath": "Tree_Image"
+        }
+      ],
+      "_status": "submitted_via_web",
+      "_geolocation": [
+        9.9136435,
+        8.8894636
+      ],
+      "_submission_time": "2025-12-23T22:19:23",
+      "_tags": [],
+      "_notes": [],
+      "_validation_status": {},
+      "_submitted_by": "tongris049"
+    }
+  ]
+}
