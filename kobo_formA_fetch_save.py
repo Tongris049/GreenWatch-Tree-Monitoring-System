@@ -46,3 +46,24 @@ except urllib.error.HTTPError as e:
 except Exception as e:
     print("❌ Unexpected error:")
     print(e)
+
+
+
+
+
+import json
+
+# Path to fetched Form A data
+INPUT_FILE = "data/raw/formA_submissions.json"
+
+# Load the JSON
+with open(INPUT_FILE, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+# Quick inspection
+print("📊 Total submissions:", len(data.get("results", [])))
+print("\nFirst submission preview:")
+if data.get("results"):
+    first = data["results"][0]
+    for key, value in first.items():
+        print(f"{key}: {value}")
